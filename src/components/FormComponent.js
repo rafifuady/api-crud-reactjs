@@ -93,7 +93,8 @@ class FormComponent extends Component {
                 name="gender"
                 component={renderField}
                 label="Gender : (L/P)"
-              />
+              >
+              </Field>
             </FormGroup>
           </Col><Col md={6}>
             <FormGroup>

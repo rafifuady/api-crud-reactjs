@@ -20,7 +20,7 @@ const NavbarComponent = (props) => {
     <div>
       <Navbar color="light" light expand="md">
         <Container>
-          <NavbarBrand href="/">Wahidev Academy</NavbarBrand>
+          <NavbarBrand href="/">RF</NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>

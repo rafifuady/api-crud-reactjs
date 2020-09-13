@@ -72,21 +72,6 @@ const TableComponent = (props) => {
       sort: "true",
     },
     {
-      dataField: "gender",
-      text: "Gender",
-      sort: "true",
-    },
-    {
-      dataField: "is_married",
-      text: "Is Married",
-      sort: "true",
-    },
-    {
-      dataField: "address",
-      text: "Address",
-      sort: "true",
-    },
-    {
       dataField: "link",
       text: "Action",
       formatter: (rowContent, row) => {
@@ -112,7 +97,6 @@ const TableComponent = (props) => {
       },
     },
   ];
-  console.log(props)
   return (
     <Container>
       {props.getDataList ? (

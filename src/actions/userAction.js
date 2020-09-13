@@ -91,7 +91,7 @@ export const putDataUpdate = (data, id) => {
   return (dispatch) => {
     axios
       .put(
-         "http://my-json-server.typicode.com/afifbasya/reactjs-redux/users/"+id,
+         "http://127.0.0.1:8000/api/customers/upd/"+id,
         data
       )
       .then(function (response) {
@@ -121,9 +121,9 @@ export const putDataUpdate = (data, id) => {
 export const deleteData = (id) => {
   return (dispatch) => {
     axios
-      .delete(
-         ""+id
-      )
+    .put(
+      "http://127.0.0.1:8000/api/customers/del/"+id
+    )
       .then(function (response) {
         console.log(response);
         
